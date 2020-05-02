@@ -105,7 +105,7 @@ class Game {
 
 		// If the selected letter matches
 		if (matchLetter) {
-			letter.className += 'chosen';
+			letter.className += ' chosen';
 			this.activePhrase.showMatchedLetter(letter.textContent);
 			const win = this.checkForWin();
 
