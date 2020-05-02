@@ -68,7 +68,7 @@ class Game {
 	// Displays a message if the player wins or a different message if they lose
 	gameOver(gameWon) {
 		if (gameWon) {
-			this.gameMessage('Congratulations! You win the game!', 'win');
+			this.gameMessage('You win!', 'win');
 		} else {
 			this.gameMessage('Bummer :( Try again!', 'lose');
 		}

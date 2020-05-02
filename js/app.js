@@ -7,7 +7,6 @@ const game = new Game();
 document.getElementById('btn__reset').addEventListener('click', () => {
 	game.resetDisplay();
 	game.startGame();
-	console.log(`Active Phrase - phrase: ${game.activePhrase.phrase}`);
 });
 
 // When a player selects a letter
