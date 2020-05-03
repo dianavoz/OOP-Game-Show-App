@@ -6,12 +6,12 @@
 
 :root {
 	--color-win: #78CF82;
-	--color-lose: #D94545;
-	--color-start: #5b85b7;
+	--color-lose: #C53952;
+	--color-start: rgb(25, 41, 119);
 	--color-neutral: #445069;
 	--color-neutral-light: #D2D2D2;
 	--color-keys: #37474F;
-	--color-keys-light: #E5E5E5;
+	--color-keys-light: #ededed;
 	--font-size-large: 60px;
 	--font-size-medium: 20px;
 	--transition: all .2s ease-in-out;
@@ -30,6 +30,7 @@ body {
 	flex-direction: column;
 	display: flex;
 	height: 100vh;
+	background: rgb(25, 41, 119);
 }
 
 li,
@@ -62,11 +63,24 @@ button {
 	-o-transition: var(--transition);
 	transition: var(--transition);
 	cursor: pointer;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	border:1px solid #dcdcdc;
+	text-shadow:0px 1px 0px #ffffff;
 }
 
 #btn__reset {
 	width: 200px;
 	margin: 0 auto;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+
+.tries {
+  margin: 0 5px;
 }
 
 .main-container {
@@ -91,7 +105,7 @@ button {
 /* Title */
 
 .header {
-	color: #3a3f58;
+	color: #fff;
 }
 
 
@@ -113,8 +127,8 @@ button {
 }
 
 .show {
-	color: #fff;
-	background-color: #4ac0d5;
+	color: var(--color-keys);
+	background-color: #fff;
 	font-size: 20px;
 	height: 65px;
 	width: 65px;
@@ -134,15 +148,15 @@ button {
 }
 
 .chosen {
-	background: #3a3f58;
+	background: #ededed;
 	border-radius: 5px;
 	font-size: var(--font-size-medium);
-	color: #FFFFFF;
+	color: #bbbbbb;
 }
 
 .wrong {
-	background: #f7a964;
-	color: #FFFFFF;
+	background: #ededed;
+	color: #bbbbbb;
 }
 
 .hidden {
