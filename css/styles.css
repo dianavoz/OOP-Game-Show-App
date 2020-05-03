@@ -10,7 +10,7 @@
 	--color-start: rgb(25, 41, 119);
 	--color-neutral: #445069;
 	--color-neutral-light: #D2D2D2;
-	--color-keys: #37474F;
+	--color-keys: rgb(24, 31, 34);
 	--color-keys-light: #ededed;
 	--font-size-large: 60px;
 	--font-size-medium: 20px;
@@ -22,7 +22,8 @@
 
 * {
 	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
+
 }
 
 body {
