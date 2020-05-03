@@ -75,7 +75,7 @@ button {
 	margin: 0 auto;
 }
 
-button:hover {
+button:hover:enabled {
 	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
 	background-color:#dfdfdf;
 }
