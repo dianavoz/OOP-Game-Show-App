@@ -211,7 +211,7 @@ button:hover {
 }
 
 .start {
-	background-color: var(--color-start);
+	background-color: rgb(25, 41, 119);
 }
 
 .start a {
