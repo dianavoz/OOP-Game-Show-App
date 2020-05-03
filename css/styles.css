@@ -6,7 +6,7 @@
 
 :root {
 	--color-win: #78CF82;
-	--color-lose: #C53952;
+	--color-lose: #C03C3E;
 	--color-start: rgb(25, 41, 119);
 	--color-neutral: #445069;
 	--color-neutral-light: #D2D2D2;
@@ -118,7 +118,7 @@ button:hover {
 	padding: 20px 1px 0 1px;
 	margin-right: 2px;
 	color: transparent;
-	background: var(--color-neutral-light);
+	border: 2px solid #fff;
 	border-radius: 5px;
 }
 
@@ -145,6 +145,16 @@ button:hover {
 .keyrow {
 	display: flex;
 	justify-content: center;
+}
+
+.key {
+	width: 50px;
+	border: 2px solid #fff;
+}
+
+.key:disabled {
+	background-color: transparent;
+	border: 2px solid #fff;
 }
 
 .chosen {
