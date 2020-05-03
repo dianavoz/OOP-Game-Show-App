@@ -211,7 +211,7 @@ button:hover {
 }
 
 .start {
-	background-color: #3a3f58;
+	background-color: var(--color-start));
 }
 
 .start a {
@@ -227,7 +227,7 @@ button:hover {
 }
 
 .lose {
-	background-color: #f5785f;
+	background-color: var(--color-lose);
 }
 
 .lose a {
